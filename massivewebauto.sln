@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massivewebauto", "massivewebauto\massivewebauto.csproj", "{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mtf", "mtf\mtf.csproj", "{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FF4C470E-B9B5-45A6-9412-BD53A48EB62C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
