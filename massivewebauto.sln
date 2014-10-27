@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massivewebauto", "massivewebauto\massivewebauto.csproj", "{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mtf", "mtf\mtf.csproj", "{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FF4C470E-B9B5-45A6-9412-BD53A48EB62C}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massiveauto", "massiveauto\massiveauto.csproj", "{3CE9334D-5A98-4A52-9229-4F6C032B7AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massivetest", "massivetest\massivetest.csproj", "{667ADA16-D987-4C5C-911A-E605B49EFE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massivetestexecute", "massivetestexecute\massivetestexecute.csproj", "{11364AEA-4731-4432-ACB6-3055E5D852CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,14 +18,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E8428B1-9AF3-4E23-BF3A-FFC8CB636292}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F1A22C9-4407-40DB-B6AC-7D74EE98C124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE9334D-5A98-4A52-9229-4F6C032B7AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE9334D-5A98-4A52-9229-4F6C032B7AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE9334D-5A98-4A52-9229-4F6C032B7AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE9334D-5A98-4A52-9229-4F6C032B7AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667ADA16-D987-4C5C-911A-E605B49EFE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667ADA16-D987-4C5C-911A-E605B49EFE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667ADA16-D987-4C5C-911A-E605B49EFE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667ADA16-D987-4C5C-911A-E605B49EFE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11364AEA-4731-4432-ACB6-3055E5D852CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11364AEA-4731-4432-ACB6-3055E5D852CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11364AEA-4731-4432-ACB6-3055E5D852CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11364AEA-4731-4432-ACB6-3055E5D852CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
